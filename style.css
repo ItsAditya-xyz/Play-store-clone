@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@600&display=swap');
+body{
+    margin: 0;
+    background-color: #EEEEEE;
+    font-family: "Open Sans";
+}
+.top-bar{
+    display: flex;
+    flex-direction: row;
+    padding-left: 26px;
+    padding-top: 12px;
+}
+
+#logo{
+    width: 15%;
+    height: auto;
+}
+
+#form{
+    margin-left: 22px;
+    margin-top: 4px;
+    display: flex;
+}
+#search-bar{
+    width: 574px;
+    height: 26px;
+    padding-left: 9px;
+    border: 1px solid rgb(163, 163, 163);
+    font-size: 16px;
+    color: rgb(88, 88, 88); 
+    
+    
+}
+#search-bar:focus{
+   outline:none;
+   border: 1px solid rgb(79, 79, 251); 
+}
+#search-bar:hover{
+    border: 1px solid rgb(79, 79, 251);
+}
+
+
+
+#search-btn{
+    width:65px;
+    height: 30px;
+    border-radius: 0 2px 2px 0;
+    background-color: #4485F4;
+    color: white;
+    border:none;
+}
+
+#search-btn:focus{
+    outline:none;
+    border: none;
+}
+#search-btn:hover{
+    cursor: pointer;
+}
+
+.accounts{
+    margin-left: 376px;   
+    overflow: hidden
+}
+
+#google-aps{
+    width: 20px;
+    height: 40px;
+    
+}
+
+#sign-out{
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+}
+
+.apps-image{
+    background-image: url("https://static.thenounproject.com/png/1714217-200.png");
+}
+
+.fixed-navbar{
+    background-color:white;
+    margin-top: 12px ;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 10px 8px -9px rgb(216, 216, 216);
+}
+
+.Apps{
+    z-index: 1;
+    width: 190px;
+    height: 50px;
+    font-size: 20px ;
+    line-height: 42px;
+    text-align: center;
+    background-color: #689F38;
+    color:white;
+}
+.Apps:hover{
+    cursor: pointer;
+    background-color: #619137 ;
+}
+
+.nav-item-big{
+    width:155px;
+    height: 50px;
+    text-align: center;
+    color: rgb(92, 92, 92);
+}
+.nav-item-big:hover{
+    cursor: pointer;
+    background-color: rgb(246, 246, 246);
+}
+
+
+
+
+#sub{
+    line-height: 44px;
+    font-size: 14px;
+    
+}
+
+#vertical-line{
+    margin-top: 4px;
+    border-left: 1px solid rgb(177, 177, 177);
+    height: 40px;
+
+}
+
+.nav-item-small{
+    
+    line-height: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 50px;
+    text-align: center;
+    color: rgb(92, 92, 92);
+    font-size: 15px;
+}
+.nav-item-small:hover{
+    cursor: pointer;
+    background-color: rgb(246, 246, 246);
+}
+
+.active{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar-buttons{
+    margin-left: 500px;
+    line-height: 49px;
+}
+
+#help, #settings{
+    margin-left: 14px;
+    font-size: 20px;
+    background-color: white;
+    width: 40px;
+    height: 30px; 
+    outline: none;
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 4px;
+}
+
+#help:hover, #settings:hover{
+    cursor: pointer;
+    background-color: rgb(240, 240, 240);
+}
+
+.left-sticky-bar{
+    
+    padding-top: 8px;
+    position: fixed;
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F4F4;
+    box-shadow: 0 0 8px 1px rgb(211, 211, 211);
+    color: rgb(92, 92, 92);
+    padding-bottom: 8px;
+}
+.top{
+    
+    padding-left: 32px;  
+    
+    line-height: 38px;
+}
+.top:hover{
+    cursor: pointer;
+    background-color: #E7E7E7;
+}
+#myApps{
+    font-size: 20px;
+}
+#shop{
+    color: #77b640;
+    font-weight: bold;
+    font-size: 19px;
+}
+#horizontal-line{
+    width: 140px;
+    height:  1px ;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    margin-left: 25px;
+    background-color: rgb(204, 203, 203);
+  
+}
+
+.left-sticky-menu{
+    z-index: 2;
+    position: fixed;
+    margin-top: 226px;
+    width: 190px;
+    border-top: 1px solid rgb(211, 211, 211);
+    display: flex;
+    flex-direction: column;
+    background-color: #EDEDED;
+    box-shadow: 0 0 8px 1px rgb(211, 211, 211);
+    color: rgb(80, 80, 80);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.menu-element{
+    padding-left: 26px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+
+.menu-element:hover{
+    background-color: #E1E1E1;
+    cursor: pointer;
+}
+
+.game-row{  
+    margin-left: 242px;
+    margin-top: 22px;
+    overflow: hidden;
+    width: 1020px;
+    
+}
+
+.row-header{
+    width: 1020px;
+    display: grid;
+    
+    align-items: center;
+    grid-template-columns: auto auto;
+
+}
+.heading{
+    font-size: 28px;
+    font-weight: 300;
+    color:rgb(51, 51, 51);
+}
+.seeMore{
+    font-size: 13px;
+    border: none;
+    outline:none;
+    background-color:  #619137;
+    width: 78px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-left: 536px;  
+   
+}
+.seeMore:hover{
+    background-color: #496d2a;
+    cursor: pointer;
+}
+
+.three-card{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    grid-gap: 10px;
+
+}
+.featured-card{
+    width: 333px;
+    height:250px;
+    background-color: white;
+    overflow: hidden;
+    border-bottom: 2px solid rgb(216, 216, 216);
+    border-radius: 3px;
+       
+}
+
+.featured-card:hover{
+    cursor: pointer;
+}
+
+.featured-card> .banner{
+    width: 360px;
+    max-height: 177px;
+}
+
+.banner:hover{
+    filter: brightness(60%);
+}
+.game-description{
+    margin-top: -21px;
+    display: gird;
+    grid-template-rows: auto auto auto;
+    color: rgb(85, 85, 85);
+}
+.game-icon{
+    margin-left: 10px;
+    width: 60px;
+    position: fixed;
+    max-height: 60px;
+}
+#game-name{
+    margin-left: 82px;
+    font-size: 20px;
+}
+#pub{
+    margin-left: 82px;
+    font-size: 13px;
+    margin-top:-18px
+}
+#game-name:hover, #pub:hover{
+    text-decoration: underline;
+}
+
+.stars{
+    margin-left: 82px;
+    font-size: 10px;
+    margin-top: -10px;
+    
+}
